@@ -1,0 +1,11 @@
+import numpy as np
+a = np.array([[3,-9],[2,4]])
+#print(a)
+b = np.array([-42,2])
+z = np.linalg.solve(a,b)
+#print(z)
+m = np.array([[1,-2,-1],[2,2,-1],[-1,-1,2]])
+#print(m)
+c = np.array([6,1,1])
+y = np.linalg.solve(m,c)
+print(y)
